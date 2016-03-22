@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        
+<link rel="stylesheet" type="text/css" href="todo1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+        
+        
+<title>New Web Project</title>
+
+
+
+
+
+<script>
+//function myFunction() {
+//    document.getElementById("PendingOverall").innerHTML = "Paragraph changed.";
+//}
+</script>
+
+<!--4 lines below are jqueryui stuff-->     
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+ 
+    </head>
+
+
+    <body>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<script src="myscript.js"></script>
+
+
+        <p id="hiddenFlag" hidden>a</p>
+        
+        <div id="MainDiv" name="MainDiv">
+        		<h1 id="MainDivTitleHeader"> test align </h1>
+
+
+        	<div id="PendingOverall" name="PendingOverall" class="OverallWindowExceptAddATask">
+        	
+        		<div id="PendingTitleArea" class="WindowTitleArea">
+        		Pending
+        		</div>
+
+
+        		<div id="PendingTasks" name="PendingTasks" class="taskWindow">
+
+        		</div>
+        	</div>
+        		        			 						        
+
+        	<div id="InProgressOverall" name="InProgressOverall" class="OverallWindowExceptAddATask">
+        	
+        		<div id="InProgressTitleArea" class="WindowTitleArea">
+        		In Progress
+        		</div>
+
+
+				<div id="InProgressTasks" name="InProgressTasks" class="taskWindow" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+	       		</div>
+        	</div>
+
+
+
+
+
+
+
+        	<div id="CompletedOverall" name="CompletedOverall" class="OverallWindowExceptAddATask">
+        	
+        		<div id="CompletedTitleArea" class="WindowTitleArea">
+        		Completed
+        		</div>
+
+
+        		<div id="CompletedTasks" name="CompletedTasks" class="taskWindow">
+
+        		</div>
+        	</div>
+
+
+
+
+
+
+        	
+
+
+        	<div id="AddATaskOverall" name="AddATaskOverall">
+        	
+        		<div id="AddATaskTitleArea" class="WindowTitleArea">
+        		Add A Task
+        		</div>
+
+
+        		<div id="AddATaskTasks" name="AddATaskTasks" class="taskWindow">
+
+
+
+        		 	<input type="text" value="Name of Task" id="taskTitle" class="InsideTask"/>
+
+        		 	<br>
+	        		 <textarea  id="taskDescription" name="taskDescription" rows="6" class="InsideTask">
+	        		 	test test
+        		 	</textarea>
+
+        		 	<input type="text" value="Date mm/dd/yyyy" id="taskDate" class="InsideTask"/>
+        		 	<br />
+        		 	<input type="submit" id="submitButtonInsideTask" value="Add a task" class="InsideTask" />
+        		 	<br />
+        		 	<br />
+					<div id="whatever">
+        		 	<input type="submit" id="clearButtonInsideTask" value="Clear" class="InsideTask"/>
+					</div>
+					
+        		</div>
+        	</div>
+        	
+
+        </div>
+        
+    </body>
+</html>
