@@ -1,0 +1,162 @@
+body {
+	background-color: green;
+
+}
+
+.taskWindows {
+  
+}
+
+
+
+#MainDiv {
+	width: 960px;
+}
+
+#MainDivTitleHeader{
+	text-align: center;	
+}
+
+
+.WindowTitleArea{
+	text-align: center;
+	height: 50px;
+  font-size: 1.6em;	
+	font:bold 1.7em Times, serif;
+	
+}
+
+/*
+#PendingOverall{
+	position: absolute;
+	top: 100px;
+ 	left: 50px;
+	width: 200px;
+	margin: 20px;
+	border: 3px black solid;
+	background-color: red;
+	height: 300px;
+	border-radius: 15px;
+}
+*/
+
+#PendingOverall{
+	position: absolute;
+	top: 100px;
+ 	left: 50px;
+	width: 200px;
+	margin: 20px;
+	border: 3px black solid;
+	background-color: red;
+	height: 300px;  
+	border-radius: 15px;
+}
+
+#InProgressOverall{
+	position: absolute;
+	top: 100px;
+ 	left: 280px;
+	width: 200px;
+	margin: 20px;
+	border: 3px black solid;
+	background-color: red;
+	height: 300px;  
+	border-radius: 15px;
+}
+
+#CompletedOverall{
+	position: absolute;
+	top: 100px;
+ 	left: 530px;
+	width: 200px;
+	margin: 20px;
+	border: 3px black solid;
+	background-color: red;
+	height: 300px;  
+	border-radius: 15px;
+}
+
+#AddATaskOverall{
+	position: absolute;
+	top: 100px;
+ 	left: 760px;
+	width: 200px;
+	margin: 20px;
+	border: 3px black solid;
+	background-color: red;
+	height: 300px;
+	border-radius: 15px;
+}
+
+
+#taskTitle{
+	background:#FF5555;
+	border-style: hidden;
+
+
+}
+
+#taskDescription{
+	background:#FF5555;
+	border-style: hidden;	
+}
+
+#taskDate{
+	background:#FF5555;
+	border-style: hidden;	
+}
+
+/*
+#submitButtonInsideTask{
+right: 0px;
+}
+
+#clearButtonInsideTask{
+left: 0px;	
+}
+*/
+
+.taskWindow{
+	text-align: left;
+}
+
+.InsideTask{
+	margin-left: .3em;
+}
+
+#submitButtonInsideTask{
+	border-radius: 3px;
+	position:relative;
+	top:.35em;
+	margin-left: .3em;
+}
+
+#clearButtonInsideTask{
+	border-radius: 3px;
+}
+
+#clearButtonInsideTask{
+	border-radius: 3px;
+}
+
+
+
+/*
+ input.ng-invalid {
+    background-color:pink;
+}
+input.ng-valid {
+    background-color:lightgreen;
+}
+*/
+
+
+
+/*
+#taskDescription.ng-untouched {
+    background-color:black;
+}
+#taskDescription.ng-dirty {
+    background-color:lightgreen;
+}
+*/
